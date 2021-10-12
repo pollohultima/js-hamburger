@@ -1,3 +1,5 @@
 //Hamburger menu shows up by clicking the icon
 
-element.addEventListener(event, function, useCapture);
+document.querySelector("a>.fa-bars").addEventListener("click", function () {
+    document.querySelector(".hamburger-menu").style.display = "block";
+});
